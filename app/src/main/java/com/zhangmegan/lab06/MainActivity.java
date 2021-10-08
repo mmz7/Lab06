@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         @NonNull
         @Override
         public Fragment createFragment(int position) {
-            return MainFragment.newInstance(vp);
+            return MainFragment.newInstance(vp, position);
         }
 
         @Override
